@@ -40,7 +40,7 @@ export default function CoinSystem() {
         </div>
       </div>
 
-      <div className="mt-4">
+      {/* <div className="mt-4">
         <h3 className="font-bold text-gray-700 mb-2">إنجازاتك:</h3>
         <div className="grid grid-cols-2 gap-3">
           {state.achievements && state.achievements.map((achievement, index) => (
@@ -53,7 +53,7 @@ export default function CoinSystem() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

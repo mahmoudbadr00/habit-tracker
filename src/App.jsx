@@ -19,11 +19,12 @@ export default function App() {
           <div className="grid gap-6">
             <ProgressTracker />
             <MotivationalQuote />
+            <DailyActions />
             <div className="grid md:grid-cols-2 gap-6">
               <Rules />
               <CoinSystem />
             </div>
-            <DailyActions />
+            
           </div>
         {/* </div>
       </div> */}
